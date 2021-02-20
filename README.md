@@ -29,11 +29,11 @@ I coded all the physical constants, distances, masses, etc into a program and im
 
 The following video shows a black hole as it would look like if the sun would have collapsed. It starts with the view we would have from Earth zooms in by a factor of 2 every second.
 
-![Video 1](videos/zoom_in_25_sec_high_res.mp4)
+![![Video 1](images/zoom_in.jpg)](videos/zoom_in_25_sec_high_res.mp4)
 
 I think this already looks pretty amazing. But what would a larger black hole look like? Say, a black hole whose Schwarzschild radius matches the radius of our sun? If such a black hole would pass Earth within the same distance Earth has to the sun and with roughly the speed of light, then we could, with naked eyes, see the following night sky.
 
-![Video 2](videos/move_along_black_hole_30_sec_high_res.mp4)
+![![Video 2](images/move_along_black_hole.jpg)](videos/move_along_black_hole_30_sec_high_res.mp4)
 
 ## Being more realistic
 
