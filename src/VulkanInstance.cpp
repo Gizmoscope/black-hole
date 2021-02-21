@@ -798,7 +798,7 @@ void VulkanInstance::createDescriptorSets() {
 void VulkanInstance::createTextureImage() {
     int texWidth, texHeight, texChannels;
     // There is also a texture called "starmap_16k.jpg". You find it . Use that for better quality
-    stbi_uc* pixels = stbi_load("textures/starmap_2020_16k.jpg", &texWidth, &texHeight, &texChannels, STBI_rgb_alpha);
+    stbi_uc* pixels = stbi_load("textures/grid.jpg", &texWidth, &texHeight, &texChannels, STBI_rgb_alpha);
     VkDeviceSize imageSize = texWidth * texHeight * 4;
     mipLevels = static_cast<uint32_t>(std::floor(std::log2(std::max(texWidth, texHeight)))) + 1;
 
